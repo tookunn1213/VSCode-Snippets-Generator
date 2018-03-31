@@ -1,0 +1,45 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>VSCode Snippets Generator</title>
+      <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <h2 class="parts-theme">VSCode Snippets Generater</h2>
+      <section class="parts-theme section-content">
+        <h3>入力</h3>
+        <div>
+          <dl>
+            <dt>name</dt>
+            <dd>
+              <input type="text" class="input-text" id="name-text" placeholder="Input here.">
+            </dd>
+            <dt>prefix</dt>
+            <dd>
+              <input type="text" class="input-text" id="prefix-text" placeholder="Input here.">
+            </dd>
+            <dt>body</dt>
+            <dd>
+              <textarea id="body-text" placeholder="Input here."></textarea>
+            </dd>
+            <dt>description</dt>
+            <dd>
+              <textarea id="description-text" class="input-text" placeholder="Input here."></textarea>
+            </dd>
+            <dd>
+              <button id="output-button">出力する</button>
+            </dd>
+          </dl>
+        </div>
+      </section>
+      <section class="parts-theme section-content">
+        <h3>出力</h3>
+        <dd>
+          <textarea id="output-text" placeholder="Output here."></textarea>
+        </dd>
+      </section>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script charset="utf-8" src="js/main.js"></script>
+    </body>
+</html>

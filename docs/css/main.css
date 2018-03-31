@@ -1,0 +1,38 @@
+.parts-theme {
+  background-color: cadetblue;
+  color: white;
+}
+
+.section-content {
+  width: 50%;
+  height: 90%;
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 900px;
+  min-height: 300px;
+  float: left;
+}
+
+.input-text {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+}
+
+#body-text {
+  width: 90%;
+  height: 500px;
+  margin: 10px;
+}
+
+#output-button {
+  width: 80px;
+  margin: 10px;
+  float: right;
+  clear: both;
+}
+
+#output-text {
+  width: 90%;
+  height: 80%;
+}

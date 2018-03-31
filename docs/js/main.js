@@ -26,7 +26,7 @@ $('#output-button').click(function() {
     "${BODY_KEY}" : [
 ${joined_body_lines}
     ],
-    "${DESCRIPTION_KEY} : "${description_text}"
+    "${DESCRIPTION_KEY}" : "${description_text}"
 }
 `;
 
